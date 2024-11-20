@@ -1,0 +1,63 @@
+# .clang-format file adjusted for CLion compatibility and Unreal Engine coding standard
+
+---
+BasedOnStyle: LLVM
+IndentWidth: 4
+TabWidth: 4
+UseTab: ForIndentation
+
+# Indent case labels within switch statements
+IndentCaseLabels: true
+
+# Indent code within namespaces (Adjusted for CLion compatibility)
+NamespaceIndentation: All
+
+# Control the placement of braces
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterClass: true
+  AfterStruct: true
+  AfterEnum: true
+  AfterFunction: true
+  AfterNamespace: true
+  AfterControlStatement: false
+  SplitEmptyFunction: false
+  SplitEmptyRecord: false
+  SplitEmptyNamespace: false
+
+# Limit the maximum line length
+ColumnLimit: 120
+
+# Control spaces around parentheses and keywords
+SpaceBeforeParens: ControlStatements
+# Removed 'SpaceAfterControlStatementKeyword' for CLion compatibility
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
+SpaceBeforeAssignmentOperators: true
+
+# Pointer and reference alignment
+PointerAlignment: Left
+
+# Disable alignment of consecutive declarations and assignments
+AlignConsecutiveDeclarations: false
+AlignConsecutiveAssignments: false
+
+# Do not pack function parameters or arguments onto a single line
+BinPackParameters: false
+BinPackArguments: false
+
+# Control the wrapping of function declarations and definitions
+AlwaysBreakAfterReturnType: None
+AlwaysBreakAfterDefinitionReturnType: None
+AllowAllParametersOfDeclarationOnNextLine: false
+
+# Disable aligning after open brackets
+AlignAfterOpenBracket: DontAlign
+
+# Other formatting options
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortBlocksOnASingleLine: Empty
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+ContinuationIndentWidth: 4
+...

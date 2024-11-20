@@ -1,0 +1,2 @@
+#define Simple_Cpp_Project_Template_VERSION_MAJOR @Simple_Cpp_Project_Template_VERSION_MAJOR@
+#define Simple_Cpp_Project_Template_VERSION_MINOR @Simple_Cpp_Project_Template_VERSION_MINOR@
