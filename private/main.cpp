@@ -3,7 +3,7 @@
 
 int main()
 {
-	std::ifstream file("./config.txt", std::ios::in | std::ios::binary);
+	std::ifstream file("./public/config.txt", std::ios::in | std::ios::binary);
 	if (!file.is_open()) {
 		std::cerr << "Error opening file" << std::endl;
 		return 1;

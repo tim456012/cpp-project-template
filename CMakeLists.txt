@@ -13,7 +13,7 @@ endif ()
 project(Simple_Cpp_Project_Template VERSION 0.1)
 
 configure_file(public/ProjectConfig.h.in ProjectConfig.h)
-configure_file(public/config.txt config.txt COPYONLY)
+configure_file(public/config.txt public/config.txt COPYONLY)
 
 add_executable(Simple_Cpp_Project_Template private/main.cpp)
 
